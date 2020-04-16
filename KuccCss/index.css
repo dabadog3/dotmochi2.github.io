@@ -1,0 +1,311 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+background-color: #f6f7f6;
+}
+
+
+@media only screen and (max-width: 750px) {
+#content {
+width: 100%;
+height: auto;
+margin: 0;
+padding: 0;
+background: #fff;
+}
+#hello {
+width: 96%;
+height: auto;
+margin: 0 auto;
+padding: 5px 2%;
+text-align: left;
+font-size: 15px;
+}
+#wrapper {
+width: 100%;
+height: auto;
+margin: 100px auto;
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+}
+.bushi {
+width: 23%;
+margin: 0;
+padding: 40px 1%;
+display: inline-block;
+background-color: #fff;
+text-align: left;
+outline: 1px solid #f6f7f6;
+border-bottom: 1px solid #dbdfdb; 
+}
+.bushi img {
+max-width: 90%;
+display: block;
+margin: 0 auto;
+}
+h1 {
+width: auto;
+height: 50px;
+font-weight: 700;
+font-size: 35px;
+line-height: 50px;
+letter-spacing: 2px;
+margin: 20px 0;
+padding: 0;
+}
+.icon {
+width: 50px;
+height: 50px;
+margin: 5px 15px 5px 0px;
+padding: 0;
+vertical-align: middle;
+}
+#menu {
+width: 100%;
+height: 40px;
+margin: 50px 5px 20px 5px;
+padding: 0;
+background: #ced3ce;
+border-radius: 5px;
+display: flex;
+}
+#menu a {
+width: 100%;
+height: 30px;
+margin: 5px 10px;
+padding: 0;
+font-size: 15px;
+line-height: 30px;
+text-decoration: none;
+color: #404840;
+border-right: 1px solid #fff;
+text-align: center;
+font-weight: bold;
+}
+#menu a:last-child {
+border-right: none;
+}
+#menu a:hover {
+color: #8a978a;
+}
+h2 {
+width: 80%;
+height: auto;
+font-size: 22px;
+line-height: 35px;
+margin: 10px auto 0px auto;
+padding: 5px 0;
+letter-spacing: 1px;
+text-align: justify;
+}
+.bushi p {
+width: 80%;
+height: 20px;
+font-size: 13px;
+line-height: 18px;
+margin: 0px auto 20px auto;
+padding: 0;
+color: #4c564c;
+letter-spacing: 1px;
+}
+.bushi a {
+text-decoration: none;
+display: block;
+width: 70%;
+height: auto;
+margin: 0px auto 10px auto;
+padding: 5px 5%;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #3dbc65;
+vertical-align: middle;
+color: #3dbc65;
+font-size: 18px;
+letter-spacing: 1px;
+background: #fff;
+transition-property: background, border-color, color;
+transition-duration: 0.1s;
+}
+.bushi a:hover {
+background: #61cb82;
+border-color: #61cb82;
+color: #000;
+}
+.bushi a span {
+font-size: 13px;
+}
+.bushi:hover {
+background: #f6f7f6;
+}
+#footer {
+display: inline-block;
+width: 100%;
+height: 100px;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+vertical-align: center;
+background: #fff;
+font-size: 13px;
+color: #4c564c;
+}
+}
+
+
+
+@media only screen and (min-width: 751px) {
+#content {
+width: 80%;
+height: auto;
+margin: 0 auto;
+padding: 0;
+background: #fff;
+}
+#hello {
+width: 90%;
+height: auto;
+margin: 0 auto;
+padding: 5px 5%;
+text-align: left;
+font-size: 15px;
+}
+#wrapper {
+width: 100%;
+height: auto;
+margin: 150px auto 0px auto;
+padding: 0px 0px 100px 0px;
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+border-top: 1px solid #dbdfdb;
+}
+.bushi {
+width: 19%;
+margin: 0;
+padding: 40px 3%;
+display: inline-block;
+background-color: #fff;
+text-align: left;
+outline: 1px solid #f6f7f6;
+border-bottom: 1px solid #dbdfdb; 
+}
+.bushi img {
+max-width: 90%;
+display: block;
+margin: 0 auto;
+}
+h1 {
+width: auto;
+height: 75px;
+font-weight: 700;
+font-size: 50px;
+line-height: 75px;
+letter-spacing: 2px;
+margin: 20px 0;
+padding: 0;
+}
+.icon {
+width: 75px;
+height: 75px;
+margin: 5px 15px 5px 0px;
+padding: 0;
+vertical-align: middle;
+}
+#menu {
+width: 100%;
+height: 40px;
+margin: 50px 5px 20px 5px;
+padding: 0;
+background: #e9ebe9;
+border-radius: 5px;
+display: flex;
+}
+#menu a {
+width: 100%;
+height: 30px;
+margin: 5px 10px;
+padding: 0;
+font-size: 15px;
+line-height: 30px;
+text-decoration: none;
+color: #404840;
+border-right: 1px solid #fff;
+text-align: center;
+font-weight: bold;
+}
+#menu a:last-child {
+border-right: none;
+}
+#menu a:hover {
+color: #8a978a;
+}
+h2 {
+width: 80%;
+height: auto;
+font-size: 25px;
+line-height: 35px;
+margin: 10px auto 0px auto;
+padding: 5px 0;
+letter-spacing: 1px;
+text-align: justify;
+}
+.bushi p {
+width: 80%;
+height: 20px;
+font-size: 13px;
+line-height: 18px;
+margin: 0px auto 20px auto;
+padding: 0;
+color: #4c564c;
+letter-spacing: 1px;
+}
+.bushi a {
+text-decoration: none;
+display: block;
+width: 70%;
+height: auto;
+margin: 0px auto 10px auto;
+padding: 5px 5%;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #3dbc65;
+vertical-align: middle;
+color: #3dbc65;
+font-size: 18px;
+letter-spacing: 1px;
+background: #fff;
+transition-property: background, border-color, color;
+transition-duration: 0.1s;
+}
+.bushi a:hover {
+background: #61cb82;
+border-color: #61cb82;
+color: #000;
+}
+.bushi a span {
+font-size: 13px;
+}
+.bushi:hover {
+background: #f6f7f6;
+}
+#footer {
+display: inline-block;
+width: 100%;
+height: 100px;
+margin: 0 auto;
+padding: 0;
+text-align: center;
+vertical-align: center;
+background: #fff;
+font-size: 13px;
+color: #4c564c;
+}
+
+}
