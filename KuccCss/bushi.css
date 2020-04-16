@@ -27,7 +27,7 @@ width: 36px;
 height: 36px;
 margin: 20px 20px;
 }
-@media only screen and (min-width: 751px) {
+@media (min-width: 751px) {
 .page {
   height: auto;
   width: 45%;
@@ -47,7 +47,7 @@ font-size: 13px;
 color: #4c564c;
 }
 }
-@media only screen and (max-width: 750px) {
+@media (max-width: 750px) {
 .page {
   height: auto;
   width: 95%;
