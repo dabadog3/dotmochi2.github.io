@@ -17,6 +17,29 @@ padding: 0;
 margin: 20px 0;
 text-align: center;
 }
+.button a {
+text-decoration: none;
+display: block;
+width: auto;
+height: auto;
+margin: 0;
+padding: 20px;
+text-align: center;
+border-radius: 5px;
+border: 1px solid #3dbc65;
+vertical-align: middle;
+color: #3dbc65;
+font-size: 18px;
+letter-spacing: 1px;
+background: #fff;
+transition-property: background, border-color, color;
+transition-duration: 0.1s;
+}
+.button a:hover {
+background: #61cb82;
+border-color: #61cb82;
+color: #000;
+}
 
 
 @media only screen and (max-width: 750px) {
