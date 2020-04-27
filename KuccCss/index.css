@@ -9,6 +9,10 @@ body {
 font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
 background-color: #f6f7f6;
 }
+.button {
+display: inline-block;
+margin: 20px auto;
+}
 
 
 @media only screen and (max-width: 750px) {
