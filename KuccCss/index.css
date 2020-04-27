@@ -9,7 +9,7 @@ body {
 font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
 background-color: #f6f7f6;
 }
-.button {
+#button {
 display: block;
 height: auto;
 width: 100%;
@@ -17,7 +17,7 @@ padding: 0;
 margin: 20px 0;
 text-align: center;
 }
-.button a {
+#button a {
 text-decoration: none;
 display: block;
 width: auto;
@@ -35,7 +35,7 @@ background: #fff;
 transition-property: background, border-color, color;
 transition-duration: 0.1s;
 }
-.button a:hover {
+#button a:hover {
 background: #61cb82;
 border-color: #61cb82;
 color: #000;
