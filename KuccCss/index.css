@@ -26,19 +26,19 @@ margin: 0;
 padding: 20px;
 text-align: center;
 border-radius: 5px;
-border: 1px solid #3dbc65;
+border: 1px solid #61cb82;
 vertical-align: middle;
-color: #3dbc65;
+color: #000;
 font-size: 18px;
 letter-spacing: 1px;
-background: #fff;
+background: #61cb82;;
 transition-property: background, border-color, color;
 transition-duration: 0.1s;
 }
 #button a:hover {
-background: #61cb82;
-border-color: #61cb82;
-color: #000;
+background: #fff;
+border-color: #3dbc65;
+color: #3dbc65;
 }
 
 
