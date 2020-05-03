@@ -15,6 +15,35 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
+#gaiyou {
+width: 80%;
+height: auto;
+margin: 20px auto;
+padding: 10px 20px;
+background: #f7f7f7;
+list-style: none;
+}
+#gaiyou li {
+width: 100%;
+height: auto;
+padding: 0;
+margin: 10px 0;
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 20px;
+}
+#gaiyou a{
+text-decoration: none;
+color: #777;
+border-top: 1px solid #dedede;
+display: block;
+}
+#gaiyou a:first-child {
+border-top: none;
+}
+#gaiyou a:hover {
+color: #333;
+}
 #content {
 width: 100%;
 height: auto;
@@ -111,11 +140,10 @@ padding: 0;
 margin: 10px 0;
 letter-spacing: 1px;
 font-size: 15px;
-line-height: 30px;
+line-height: 20px;
 }
 #gaiyou a{
 text-decoration: none;
-font-weight: bold;
 color: #777;
 border-top: 1px solid #dedede;
 display: block;
