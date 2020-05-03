@@ -1,37 +1,37 @@
 @charset "UTF-8";
 @media only screen and (max-width: 750px) {
 .icon {
-width: 30px;
-height: 30px;
-margin: 5px 15px 5px 0px;
-padding: 0;
-vertical-align: middle;
+     width: 30px;
+     height: 30px;
+     margin: 5px 15px 5px 0px;
+     padding: 0;
+     vertical-align: middle;
 }
 #menu {
-width: 100%;
-height: auto;
-margin: 30px 5px 50px 5px;
-padding: 0;
-background: #e9ebe9;
-border-radius: 5px;
-display: flex;
+     width: 100%;
+     height: auto;
+     margin: 30px 5px 50px 5px;
+     padding: 0;
+     background: #e9ebe9;
+     border-radius: 5px;
+     display: flex;
 }
 #menu a {
-display: inline;
-width: 100%;
-margin: 5px 10px;
-padding: 0;
-font-size: 15px;
-line-height: 20px;
-text-decoration: none;
-color: #404840;
-border-right: 1px solid #fff;
-text-align: center;
-font-weight: bold;
-vertical-align: middle;
+     display: inline;
+     width: 100%;
+     margin: 5px 10px;
+     padding: 0;
+     font-size: 15px;
+     line-height: 20px;
+     text-decoration: none;
+     color: #404840;
+     border-right: 1px solid #fff;
+     text-align: center;
+     font-weight: bold;
+     vertical-align: middle;
 }
 #menu a:last-child {
-border-right: none;
+     border-right: none;
 }
 #menu a:hover {
 color: #8a978a;
@@ -45,6 +45,7 @@ line-height: 40px;
 letter-spacing: 1px;
 margin: 10px 0;
 padding: 0;
+text-align: left;
 }
 h1 a {
 text-decoration: none;
@@ -113,6 +114,7 @@ line-height: 75px;
 letter-spacing: 2px;
 margin: 20px 0;
 padding: 0;
+text-align: left;
 }
 h1 a {
 text-decoration: none;

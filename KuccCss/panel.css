@@ -23,7 +23,7 @@ body {
     overflow: auto;
 }
 #back {
-    width: 100%;
+    width: 50%;
     height: 76px;
     position: fixed;
     bottom: 0;
@@ -120,13 +120,13 @@ body {
 
 @media only screen and (max-width: 750px) {
 #gaiyou {
-width: 80%;
-height: auto;
-margin: 20px auto;
-padding: 10px 20px;
-background: #f7f7f7;
-list-style: none;
-text-align: left;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #f7f7f7;
+    list-style: none;
+    text-align: left;
 }
 #gaiyou li {
 width: 100%;
